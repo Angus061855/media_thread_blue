@@ -604,13 +604,13 @@ if __name__ == "__main__":
         )
 
         send_telegram(
-            "✅ Thread White 4 給文章 發文成功！"
+            "✅ Thread blue 4 給文章 發文成功！"
         )
 
     except Exception as e:
 
         error_msg = (
-            "❌ Thread White 4 給文章 發文失敗！"
+            "❌ Thread blue 4 給文章 發文失敗！"
             f"\n錯誤原因：{str(e)}"
         )
 
