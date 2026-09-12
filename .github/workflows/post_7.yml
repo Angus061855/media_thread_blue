@@ -22,7 +22,7 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-pip-
 
-      - name: Run post_9
+      - name: Run post_7
         env:
           THREADS_USER_ID: ${{ secrets.THREADS_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.THREADS_ACCESS_TOKEN }}
