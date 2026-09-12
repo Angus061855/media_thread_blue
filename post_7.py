@@ -582,7 +582,7 @@ def post_to_threads(text):
 
 
 if __name__ == "__main__":
-    print("=== White 7 自動生成 ===")
+    print("=== Blue 7 自動生成 ===")
 
     pages = get_pending_topics()
 
