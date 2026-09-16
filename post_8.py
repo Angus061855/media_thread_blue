@@ -668,21 +668,16 @@ if __name__ == "__main__":
 
         send_telegram(
             f"✅ Blue 8 發文成功！"
-            f"\n風格：{style_name}"
-            f"\n主題：{custom_topic}"
         )
 
     except Exception as e:
         error_msg = (
             f"❌ Blue 8 發文失敗！"
-            f"\n主題：{custom_topic}"
-            f"\n錯誤原因：{str(e)}"
         )
 
-        print(
-            error_msg
-        )
-
+        print(error_msg)
+        print(f"錯誤原因：{str(e)}")
+    
         update_status(
             page_id,
             "失敗"
